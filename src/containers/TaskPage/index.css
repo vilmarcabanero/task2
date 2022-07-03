@@ -1,0 +1,22 @@
+#taskContainer {
+  width: 40rem;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+#addTaskGroup {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 16.5rem;
+}
+
+#clearCompletedGroup {
+  margin: auto;
+  max-width: 16.5rem;
+}
+
+#entryGroup {
+  margin-top: 1rem;
+}

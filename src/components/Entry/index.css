@@ -1,0 +1,52 @@
+#entry {
+  border: 1px solid #CDD9ED;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 15.5rem;
+  margin: auto;
+  margin-top: 5px;
+  text-align: left;
+}
+
+#task {
+  cursor: pointer;
+  padding: 5px;
+  width: 70%;
+  display: inline-block;
+  user-select: none; 
+}
+
+#iconGroup {
+  float: right;
+  z-index: 9999;
+}
+
+#editIcon {
+  width: 1.3rem;
+  height:1.3rem;
+  color: blue;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+#editIcon:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#deleteIcon {
+  width: 1.3rem;
+  height: 1.3rem;
+  color: red;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+#deleteIcon:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration-line: line-through;
+}
